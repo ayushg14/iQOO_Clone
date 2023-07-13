@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assests/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 6rem;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.nav-logo {
+    margin-top: 1rem;
+    height: 1rem;
+    width: 1rem;
+}
+.nav-logo img {
+    height: 1rem;
+    width: 5rem;
+    margin-left: 5.5rem;
+    padding-top: 0.7rem;
+    cursor: pointer;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 12rem;
+    cursor: pointer;
+}
+.nav-list h4 {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding-top: 1.4rem;
+}
+.nav-list h4:hover {
+    color: rgb(189, 189, 9);
+}
+.nav-icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 1rem;
+    position: absolute;
+    left: 1170px;
+}
+.nav-icon i {
+    height: 0rem;
+    margin-right: 4rem;
+    padding-top: 1.4rem;
+}
+.nav-icon .user {
+    margin-right: 0;
+}
+.nav-icon i:hover {
+    color: rgb(235, 223, 223);
+}
+.hero-des {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+.title1 {
+    height: 3rem;
+    width: 35rem;
+    margin-bottom: 0.5rem;
+}
+.hero-des h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: #232323;
+    font-weight:lighter;
+    font-size: 2rem;
+    width: max-content;
+}
+.des-button {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: start;
+    padding-top: 1rem;    
+}
+.btn {
+    height: 1rem;
+    width: 3rem;
+    border-radius: 40%;
+    position: relative;
+    left: 5px;
+    top: 3px;
+    font-size: 2rem;
+    padding-bottom: 2.1rem;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.des-button .first {
+    margin-right: 1rem;
+    cursor: pointer;
+    color: #232323;
+    font-weight: light;
+    font-size: 1.5rem;
+}
+
+.des-button .second {
+    margin-left: 1rem;
+    cursor: pointer;
+    color: #232323;
+    font-weight: light;
+    font-size: 1.5rem;
+}
+
+.banner1 {
+    height: 70vh;
+    width: 90%;
+    position: relative;
+    left: 5rem;
+    margin-bottom: 8rem;
+}
+.banner1 .img img {
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 3rem;
+    transition:all 0.25s ease-in;
+}
+.banner1 .img img:hover {
+    transform: scale(1.025);
+}
+.banner-des {
+    height: 10rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -400px;
+    left: 80px;
+}
+.banner-des img {
+    height: 32px;
+    width: 250px;
+}
+.banner-des h3 {
+    font-size: 27px;
+    margin-top: 1rem;
+    color: #232323;
+}
+.banner-des h4 {
+    font-size: 27px;
+    color: #232323;
+}
+.banner-des h4 {
+    margin-bottom: 2rem;
+}
+.ban-btn {
+    height: 1rem;
+    width: 15rem;
+}
+.ban-btn h4 {
+    font-size: 20px;
+    color: #232323;
+}
+.ban-btn .butn {
+    height: 25px;
+    width: 30px;
+    border-radius: 40%;
+    position: relative;
+    left: 5px;
+    top: 2px;
+    font-size: 20px;
+    padding-bottom: 1rem;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    color: #232323;
+}
+.img2 {
+    height: 20px;
+    width: 150px;
+}
+.pro2 h3, .pro2 h4 {
+    color: white;
+}
+.butn2 {
+    background-color: transparent;
+    border: 2px solid white;
+    height: 25px;
+    width: 30px;
+    border-radius: 40%;
+    font-size: 20px;
+    position: relative;
+    left: 5px;
+    top: 1px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 1rem;
+}
+.banner2 {
+    margin-bottom: 7rem;
+}
+
+.discovery {
+    font-size: 3rem;
+    position: absolute;
+    top: 2000px;
+    left: 5rem;
+    margin-bottom: 5px;
+}
+.dis {
+    display: inline-flex;
+    margin-top: 50px;
+}
+.dis .des1 {
+    height: 20rem;
+    width: 25rem;
+    position: relative;
+    left: 7rem;
+    top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.des1 img{
+    height: 15rem;
+    width: 25em;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    transition: all 0.25s ease;
+}
+.des1 img:hover {
+    transform: scale(1.030);
+}
+#iqoo {
+    position: absolute;
+    top: 11rem;
+    left: 3rem;
+    color: white;
+}
+#snap {
+    position: absolute;
+    top: 12rem;
+    left: 3rem;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.des1 h3 {
+    position: absolute;
+    left: 1rem;
+    top: 34rem;
+}
+#reg {
+    position: absolute;
+    left: 1rem;
+    top: 36rem;
+}
+.dis .des2 {
+    height: 32rem;
+    width: 20rem;
+    background-image: url(assests/discover3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+    border-radius: 2rem;
+}
+.des2 h4 {
+    color: white;
+    position: absolute;
+    top: 27.5rem;
+    left: 2rem;
+}
+#charge {
+    position: absolute;
+    top: 29rem;
+    color: white;
+    font-size: 1.3rem;
+    left: 2rem;
+}
+.dis .des3 {
+    height: 32rem;
+    width: 20rem;
+}
+.des2 {
+    transition: 0.25s ease;
+}
+.des2:hover {
+    transform: scale(1.030);
+}
+.des3 img {
+    height: 17rem;
+    width: 23rem;
+    position: relative;
+    top: 1rem;
+    left: 12rem;
+    border-radius: 2rem;
+    transition: 0.25s ease;
+}
+.des3 img:hover {
+    transform: scale(1.030);
+}
+.des3 h2 {
+    position: relative;
+    left: 14rem;
+    top: -0.2rem;
+}
+.des3 h3 {
+    position: relative;
+    left: 14rem;
+    top: -4rem;
+    color: white;
+}
+#dis4 {
+    position: relative;
+    left: 14rem;
+    top: 1rem;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.footer {
+    height: 30rem;
+    width: 100%;
+    background-color: #242933;
+    position: relative;
+    top: 18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.left {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+.foot1 {
+    margin-left: 2rem;
+}
+.foot1,.foot2 {
+    margin-right: 3rem;
+}
+.foot1, .foot2 , .foot3 {
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    font-weight:light;
+    position: relative;
+    left: 5rem;
+}
+.foot-des {
+    margin-top: 1rem;
+}
+.foot-des p {
+    margin-top: 2rem;
+    color: grey;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.foot-des p:hover {
+    color: rgb(194, 194, 16);
+}
+.right {
+    position: relative;
+    top: 4rem;
+    left: -5rem;
+    color: grey;
+    cursor: pointer;
+}
+.right1 i {
+    font-size: 1.5rem;
+}
+.right1 span {
+    font-size: 1.8rem;
+}
+.right1 h4 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+.right2 i {
+    font-size: 1.4rem;
+}
+.right2 span {
+    font-size: 1.2rem;
+}
+.right3 i {
+    font-size: 1.4rem;
+}
+.right3 span, .right3 p {
+    font-size: 1.2rem;
+}
+.right4 i {
+    font-size: 1.4rem;
+}
+.right4 span {
+    font-size: 1.2rem;
+}
+.right5 i {
+    font-size: 2.3rem;
+    margin-right: 0.5rem;
+}
+.right2, .right3,.right4 {
+    transition: 0.5s ease;
+}
+.right2:hover,
+.right3:hover,
+.right4:hover{
+    color: rgb(194, 194, 16);
+}
+
